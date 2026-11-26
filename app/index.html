@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World in Numbers — National Statistics</title>
+<meta name="description" content="Twelve of the world's largest countries, side by side: population, GDP, GDP per capita and life expectancy, every figure sourced and dated.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/"><span class="brand-name">World <em>in</em> Numbers</span><span class="brand-tag">National statistics</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#/" data-route="overview">Overview</a>
+      <a href="#/countries" data-route="countries">Countries</a>
+      <a href="#/compare" data-route="compare">Compare</a>
+      <a href="#/rankings" data-route="rankings">Rankings</a>
+      <a href="#/sources" data-route="sources">Sources</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="page"></main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    World in Numbers is an independent statistics reference. Figures are rounded and dated;
+    population and GDP: World Bank, 2023; life expectancy and population history:
+    UN World Population Prospects 2024. See <a href="#/sources">Sources &amp; methods</a>.
+    The site runs entirely offline from its own files.
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
